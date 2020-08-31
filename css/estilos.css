@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Rosellinda Alyamore;
+	src: url('Rosellinda Alyamore.otf');
+}
+
+.iconeServ{
+	width:96px;
+	height:96px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bordaCard{
+	border-style:none;
+}
+
+.titulosBanner{
+	color:#1E90FF;
+	font-family: Rosellinda Alyamore;
+	font-size:65px;
+}
