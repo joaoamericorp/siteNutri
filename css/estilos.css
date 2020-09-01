@@ -3,6 +3,15 @@
 	src: url('Rosellinda Alyamore.otf');
 }
 
+footer{
+	background-color: #363636;
+	color: #ffffff;
+	margin-top: 20px;
+	height: 130px;
+	padding-top: 25px;
+	text-align: center;
+}
+
 .iconeServ{
 	width:96px;
 	height:96px;
@@ -19,4 +28,36 @@
 	color:#1E90FF;
 	font-family: Rosellinda Alyamore;
 	font-size:65px;
+}
+
+.titulos{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+#especialidades{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	/* busca a imagem na subpasta img */
+	background-image:url(../img/especialidades.jpg); 
+	/* bloqueia a repetição da imagem no background da container */
+	background-repeat: no-repeat;
+	/* redimensiona a imagem em toda a área da container */
+	background-size: 100% 100%;
+	/* fixa o background, fazendo o conteúdo rolar por cima */
+	background-attachment: fixed;
+}
+
+#resultados{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	/* busca a imagem na subpasta img */
+	background-image:url(../img/resultados.jpg); 
+	/* bloqueia a repetição da imagem no background da container */
+	background-repeat: no-repeat;
+	/* redimensiona a imagem em toda a área da container */
+	background-size: 100% 100%;
+	/* fixa o background, fazendo o conteúdo rolar por cima */
+	background-attachment: fixed;
+	margin-bottom: 15px;
 }
