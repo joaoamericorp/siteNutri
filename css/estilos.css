@@ -4,12 +4,12 @@
 }
 
 footer{
-	background-color: #363636;
-	color: #ffffff;
-	margin-top: 20px;
-	height: 130px;
-	padding-top: 25px;
-	text-align: center;
+		background-color: #363636;
+		color: #ffffff;
+		margin-top:20px;
+		height:130px;
+		padding-top:25px;
+		text-align:center;
 }
 
 .iconeServ{
@@ -20,8 +20,17 @@ footer{
 	margin-right:auto;
 }
 
-.bordaCard{
-	border-style:none;
+.conteudos{
+	margin-top:10px;
+}
+
+.titulos{
+		margin-top:25px;
+		margin-bottom:30px;
+}
+
+.cardBorder{
+		border-style:none;
 }
 
 .titulosBanner{
@@ -30,34 +39,25 @@ footer{
 	font-size:65px;
 }
 
-.titulos{
-	margin-top: 25px;
-	margin-bottom: 30px;
+#quemsomos{
+	height:100vh;
 }
 
 #especialidades{
-	padding-top: 250px;
-	padding-bottom: 250px;
-	/* busca a imagem na subpasta img */
-	background-image:url(../img/especialidades.jpg); 
-	/* bloqueia a repetição da imagem no background da container */
-	background-repeat: no-repeat;
-	/* redimensiona a imagem em toda a área da container */
-	background-size: 100% 100%;
-	/* fixa o background, fazendo o conteúdo rolar por cima */
-	background-attachment: fixed;
+	padding-top:250px;
+	padding-bottom:250px;
+	background-image: url(../img/especialidades.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
 }
 
 #resultados{
-	padding-top: 250px;
-	padding-bottom: 250px;
-	/* busca a imagem na subpasta img */
-	background-image:url(../img/resultados.jpg); 
-	/* bloqueia a repetição da imagem no background da container */
-	background-repeat: no-repeat;
-	/* redimensiona a imagem em toda a área da container */
-	background-size: 100% 100%;
-	/* fixa o background, fazendo o conteúdo rolar por cima */
-	background-attachment: fixed;
-	margin-bottom: 15px;
+	padding-top:250px;
+	padding-bottom:250px;
+	background-image: url(../img/resultados.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	margin-bottom:15px;
 }
